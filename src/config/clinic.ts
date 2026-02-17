@@ -1,307 +1,359 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR",
+  logo: "/images/logo.png",
+  tagline: "Psicóloga EMDR en Barcelona - Terapia en italiano y castellano",
+  description: "Marianna Bonalumi, psicóloga general sanitaria, neuropsicóloga y terapeuta EMDR certificada en Barcelona. Atención presencial y online en castellano e italiano. Especializada en tratamiento de ansiedad, depresión, traumas y terapia de pareja con enfoque cercano, respetuoso y humano. Integro terapia cognitivo-conductual, EMDR y mindfulness para ayudarte a recuperar tu equilibrio emocional.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#c9bba2",
+    secondary: "#3c3831",
+    accent: "#89765b",
+    neutral: "#fbfaf8"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "610 06 65 94",
+  whatsapp: "+34610066594",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros servicios de psicología.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Gran Via de les Corts Catalanes, 617, 1-4, Eixample, 08007 Barcelona, España",
+    city: "Barcelona",
+    province: "Madrid",
+    postalCode: "08007",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=9428946831315941819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Marianna%20Bonalumi%20-%20psic%C3%B3loga%20(italiano%20y%20castellano)%20-%20terapeuta%20EMDR%20%4041.3904%2C2.16913&z=16&output=embed",
+  coordinates: {
+    lat: 41.3904,
+    lng: 2.16913
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes",
+      hours: "9:30–20:00"
+    },
+    {
+      days: "martes - miércoles",
+      hours: "Cerrado"
+    },
+    {
+      days: "jueves",
+      hours: "16:00–20:00"
+    },
+    {
+      days: "viernes",
+      hours: "15:30–20:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 34,
+    url: "https://maps.google.com/?cid=9428946831315941819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Mariana Rodriguez",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Marianna es una profesional excepcional. Desde el primer día me hizo sentir en un espacio seguro, donde podía expresarme sin juicios y empezar a entenderme mejor. Su acompañamiento siempre ha sido cercano, empático y muy humano. Gracias a su apoyo he podido trabajar temas como el apego y la depresión, notando un cambio en mi vida. La recomendaría sin dudar a quien esté buscando un proceso terapéutico con compromiso y calidez.",
+        date: "Hace 9 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "jose antonio paredes leon",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Mi experiencia con Marianna es bastante positiva, gracias a su terapia y soporte incluso fuera de terapia me ayudaron mucho en un momento muy delicado de mi vida!\nSu empatía, capacidad de escuchar y reflexionar contigo es muy grande y te hace sentir seguro para poder abrirte en terapia. Tambien sus sessiones de EMDR me ayudaron mucho a ver mis heridas de infancia y poder darles la atención que necesitaban",
+        date: "Hace 2 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Núria Feliu",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Desde que Marianna forma parte de mi vida que me siento más segura y confiada. Con su escucha activa me ayuda a enfrentar todo eso que me da miedo o me bloquea. Siempre me da buenos consejos y me hace crecer desde el respeto y la libertad. Me anima a ser quien soy y, sobretodo, a ser feliz y estar bien conmigo misma.",
+        date: "Hace 8 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Sara Lilu",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Mariana es una gran profesional, su trato es cercano y es fácil conectar con ella. Desde la primera sesión me sentí súper cómoda, y aunque haya terminado mi tratamiento con la ansiedad, sigo yendo a verla de vez en cuando a hacer un chequeo general. Siempre saco algo nuevo en claro! Gracias Mariana :)",
+        date: "Hace 9 meses"
       },
-    ],
+      {
+        author: "candela lillo",
+        rating: 5,
+        text: "Conocí a mariana en un momento muy difícil que atravesaba y ella me ayudó mucho. Es una profesional que cuida mucho a sus pacientes y se preocupa por el bienestar de ellos. Es muy responsable, empatica y cercana, te hace sentir escuchada y que te ayudará a superar obstáculos",
+        date: "Hace 8 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "terapia-emdr",
+      name: "Terapia EMDR",
+      description: "Terapia especializada para el tratamiento de traumas y heridas emocionales de la infancia. El EMDR es una técnica avalada científicamente que te ayuda a procesar experiencias dolorosas del pasado que siguen afectando tu presente. Certificada por el Instituto Español de EMDR.",
+      benefits: [
+        "Sanación de traumas y heridas de infancia",
+        "Procesamiento de experiencias dolorosas",
+        "Técnica avalada científicamente"
+      ],
+      icon: "Brain"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "terapia-individual",
+      name: "Terapia Individual Adultos",
+      description: "Sesiones personalizadas para trabajar ansiedad, depresión, problemas de apego, dependencia emocional y otros desafíos vitales. Te acompaño en un proceso terapéutico cercano y empático, donde podrás expresarte sin juicios y entenderte mejor. Integro diferentes enfoques basados en la evidencia.",
+      benefits: [
+        "Espacio seguro y sin juicios",
+        "Tratamiento de ansiedad y depresión",
+        "Trabajo profundo sobre el apego"
+      ],
+      icon: "User"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "terapia-pareja",
+      name: "Terapia de Pareja",
+      description: "Mejora la comunicación, resuelve conflictos y fortalece vuestra relación de pareja. Trabajo con crisis de pareja, problemas de comunicación, diferencias en la relación e infidelidades. Un espacio para reconstruir vínculos saludables desde el respeto mutuo.",
+      benefits: [
+        "Mejora de la comunicación",
+        "Resolución de crisis y conflictos",
+        "Fortalecimiento del vínculo"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "psicologia-infantil",
+      name: "Psicología Infantil y Adolescentes",
+      description: "Atención especializada para niños y adolescentes con dificultades emocionales, problemas de conducta, ansiedad infantil o traumas. Formación específica en trastornos infanto-juveniles y neuropsicología. Acompañamiento respetuoso adaptado a cada edad.",
+      benefits: [
+        "Tratamiento de ansiedad infantil",
+        "Trabajo con traumas en niños",
+        "Enfoque adaptado a cada edad"
+      ],
+      icon: "Baby"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "terapia-online",
+      name: "Terapia Online",
+      description: "Sesiones de psicoterapia por videollamada con la misma calidad y efectividad que la consulta presencial. Ideal si vives fuera de Barcelona, tienes horarios complicados o simplemente prefieres la comodidad de tu hogar. Disponible en castellano e italiano.",
+      benefits: [
+        "Misma efectividad que presencial",
+        "Flexibilidad horaria",
+        "Desde cualquier lugar"
+      ],
+      icon: "Monitor"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "mindfulness",
+      name: "Mindfulness y Regulación Emocional",
+      description: "Técnicas de mindfulness integradas en el proceso terapéutico para ayudarte a gestionar el estrés, regular tus emociones y conectar contigo mismo. Aprende a estar presente, reducir la ansiedad y mejorar tu bienestar emocional día a día.",
+      benefits: [
+        "Reducción del estrés y ansiedad",
+        "Mejor gestión emocional",
+        "Conexión contigo mismo"
+      ],
+      icon: "Target"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "terapia-bilingue",
+      name: "Terapia en Italiano",
+      description: "Psicoterapia en tu idioma materno. Como psicóloga italiana, ofrezco sesiones completamente en italiano para que puedas expresarte con total naturalidad y profundidad. Especialmente indicado para italianos residentes en Barcelona que buscan terapia en su lengua.",
+      benefits: [
+        "Expresión en tu idioma materno",
+        "Psicóloga nativa italiana",
+        "Mayor profundidad terapéutica"
+      ],
+      icon: "User"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "trastornos-alimentarios",
+      name: "Trastornos de Conducta Alimentaria",
+      description: "Tratamiento especializado de anorexia, bulimia y otros TCA. Experiencia clínica en Eatica, centro especializado en trastornos alimentarios. Abordaje integral que incluye trabajo emocional, imagen corporal y relación con la comida.",
+      benefits: [
+        "Experiencia clínica especializada",
+        "Trabajo con imagen corporal",
+        "Abordaje integral del TCA"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Primer Contacto",
+      description: "Llámame o escríbeme por WhatsApp al 610 06 65 94. Te atenderé personalmente para conocer tu situación y resolver tus dudas. Acordamos día y hora para tu primera sesión, presencial en Barcelona u online."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Primera Sesión",
+      description: "En nuestra primera cita creo un espacio seguro donde puedas expresarte sin juicios. Te escucho activamente, comprendo tu historia y lo que te ha traído hasta aquí. Juntos definimos objetivos terapéuticos adaptados a tus necesidades."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Proceso Terapéutico",
+      description: "Iniciamos el trabajo terapéutico con sesiones regulares. Integro diferentes enfoques como terapia cognitivo-conductual, EMDR y mindfulness según tu situación. Te acompaño de forma cercana y empática en tu proceso de cambio."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Crecimiento y Bienestar",
+      description: "Notarás cambios progresivos en tu vida: mayor equilibrio emocional, relaciones más saludables y conexión contigo mismo. Incluso tras finalizar el tratamiento, muchos pacientes continúan viniendo ocasionalmente para chequeos y seguimiento."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valoración Excelente de 5★",
+      description: "Con 34 reseñas en Google, todas con 5 estrellas, mis pacientes destacan el espacio seguro, la escucha activa, la empatía y los resultados reales. Profesionalidad y calidez humana en cada sesión.",
+      icon: "Star"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Terapeuta EMDR Certificada",
+      description: "Certificada por el Instituto Español de EMDR, técnica especializada y avalada científicamente para el tratamiento de traumas y heridas emocionales. Formación específica en neuropsicología y terapia cognitivo-conductual.",
+      icon: "Award"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Terapia Bilingüe: Italiano y Castellano",
+      description: "Como psicóloga italiana, ofrezco sesiones en tu idioma materno. Poder expresarte en italiano permite una conexión más profunda y natural con tus emociones. Única ventaja para la comunidad italiana en Barcelona.",
+      icon: "MessageCircle"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Experiencia Clínica Especializada",
+      description: "Amplia trayectoria en unidades especializadas: Hospital Vall d'Hebrón (adicciones), daño cerebral adquirido, salud mental de adultos, clínica Eatica (trastornos alimentarios). Formación sólida y experiencia real en casos complejos.",
+      icon: "Shield"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Marianna Bonalumi",
+      role: "Psicóloga General Sanitaria y Terapeuta EMDR",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Psicólogos comprometidos con el bienestar emocional. En Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR ofrecemos un espacio seguro donde trabajar hacia una vida más plena y satisfactoria."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR - Imagen 6"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué es la terapia EMDR y para qué sirve?",
+      answer: "EMDR (Eye Movement Desensitization and Reprocessing) es una terapia avalada científicamente para el tratamiento de traumas y heridas emocionales. Estoy certificada por el Instituto Español de EMDR. Esta técnica te ayuda a procesar experiencias dolorosas del pasado, especialmente heridas de infancia, que siguen afectando tu presente. Muchos pacientes de Marianna Bonalumi destacan cómo las sesiones de EMDR les ayudaron a sanar traumas y ver sus heridas con otra perspectiva."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Ofrecéis terapia en italiano?",
+      answer: "Sí, como psicóloga italiana ofrezco todas las sesiones tanto en castellano como en italiano. Muchos pacientes italianos residentes en Barcelona valoran poder hacer terapia en su idioma materno, ya que permite una expresión más profunda y natural de las emociones. Todas las modalidades terapéuticas están disponibles en ambos idiomas."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cómo es la primera sesión con Marianna?",
+      answer: "Desde el primer día creo un espacio seguro donde puedas expresarte sin juicios. La primera sesión es un momento de conocernos, donde te escucho activamente para comprender tu situación, tus necesidades y lo que te ha traído a terapia. Mis pacientes destacan que desde la primera sesión se sintieron cómodos, escuchados y seguros para abrirse. Definimos juntos los objetivos terapéuticos y el enfoque más adecuado para ti."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Cuánto dura el tratamiento psicológico?",
+      answer: "La duración depende de cada persona y sus objetivos terapéuticos. Algunos pacientes necesitan un proceso más intenso para trabajar temas como depresión, ansiedad o traumas, mientras otros buscan apoyo puntual. Trabajo con compromiso y flexibilidad, adaptándome a tu ritmo. Muchos pacientes, incluso tras finalizar su tratamiento principal, continúan viniendo ocasionalmente para chequeos generales y seguimiento."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Aceptáis seguros médicos?",
+      answer: "Sí, acepto pacientes con pólizas de reembolso de seguros privados. Es importante que consultes con tu aseguradora si tu póliza incluye esta opción de reembolso. En la consulta te proporciono toda la documentación necesaria para que puedas solicitar el reembolso a tu compañía de seguros."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿La terapia online es igual de efectiva que la presencial?",
+      answer: "Sí, la terapia online tiene la misma efectividad que la presencial. Ofrezco sesiones por videollamada con la misma calidad, cercanía y profesionalidad. Es una excelente opción si vives fuera de Barcelona, tienes dificultades de movilidad o simplemente prefieres la comodidad de tu hogar. La conexión terapéutica y los resultados son igualmente positivos."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué problemas tratáis en consulta?",
+      answer: "En Marianna Bonalumi trabajo con una amplia variedad de dificultades: ansiedad, depresión, problemas de apego, dependencia emocional, traumas, trastornos alimentarios, problemas de pareja, dificultades en niños y adolescentes, estrés, duelo y muchos otros. Mi enfoque integra terapia cognitivo-conductual, EMDR y mindfulness, adaptándome siempre a las necesidades específicas de cada persona. Tengo experiencia clínica en unidades especializadas de adicciones, daño cerebral, salud mental y trastornos alimentarios."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cómo puedo pedir cita con Marianna Bonalumi?",
+      answer: "Puedes contactarme directamente por teléfono o WhatsApp al 610 06 65 94. Te atenderé personalmente para conocer tu situación, resolver tus dudas y acordar día y hora para tu primera sesión. Ofrezco consulta presencial en el centro de Barcelona y también sesiones online. El tiempo de respuesta es rápido y el trato cercano desde el primer contacto."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Marianna Bonalumi - Psicóloga EMDR Barcelona",
+    defaultTitle: "Marianna Bonalumi - Psicóloga EMDR en Barcelona",
+    defaultDescription: "Psicóloga general sanitaria y terapeuta EMDR en Barcelona. Terapia en italiano y castellano. Tratamiento de ansiedad, depresión, traumas y terapia de pareja. Pide cita: 610 06 65 94",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "psicóloga Barcelona",
+      "terapeuta EMDR Barcelona",
+      "Marianna Bonalumi",
+      "psicóloga italiana Barcelona",
+      "terapia en italiano Barcelona",
+      "tratamiento ansiedad Barcelona",
+      "terapia de pareja Barcelona",
+      "psicóloga online",
+      "tratamiento traumas Barcelona",
+      "terapia EMDR",
+      "psicología infantil Barcelona",
+      "neuropsicóloga Barcelona"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Marianna Bonalumi - psicóloga (italiano y castellano) - terapeuta EMDR",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Gran Via de les Corts Catalanes, 617, 1-4, Eixample, 08007 Barcelona, España, Barcelona, Madrid"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Psicología",
+    "en Barcelona"
+  ],
+  heroDescription: "Soy Marianna Bonalumi, psicóloga general sanitaria y terapeuta EMDR certificada. Ofrezco terapia presencial en el centro de Barcelona y sesiones online en castellano e italiano. Trabajo desde un enfoque cercano y humano, ayudándote a comprender tu historia, sanar tus heridas emocionales y construir relaciones más saludables contigo mismo y con los demás.",
+  specialty: "Terapia EMDR y Trauma",
+  ctaLabel: "Tu Bienestar",
+  ctaHeadline: "¿Lista/o para empezar tu proceso terapéutico?",
+  ctaDescription: "Pide tu primera cita y comienza a trabajar en tu bienestar emocional en un espacio seguro, confidencial y sin juicios. Sesiones presenciales en Barcelona u online.",
+  statsLabel: "Pacientes",
+  schemaType: "PsychologicalTreatment",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
